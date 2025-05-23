@@ -280,7 +280,7 @@
 
 .frame-one-text h1 {
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: #251804;
   text-align: left;
   line-height: 1.4;
@@ -551,7 +551,7 @@
 }
 
 .frame-three-info > h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: right;
   font-family: 'Josefin Sans', sans-serif;
   margin-bottom: 3px;
@@ -625,7 +625,7 @@
 }
 
 .join-button p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #ffff;
   font-weight: 100;
   margin-bottom: 1px;
@@ -787,7 +787,7 @@
 }
 
 .dotted-line img {
-  height: 100%;
+  height: 90%;
 }
 
 .frame-four-b {
@@ -892,7 +892,7 @@
 }
 
 .frame-five h2 {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   background-color: #9cff07;
   border-radius: 4px;
   padding: 2px;
@@ -2335,7 +2335,7 @@ li {
   .frame-title {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: start;
     gap: 20px;
@@ -2658,7 +2658,7 @@ li {
 
 
   *, body, html {
-   /*font-size: 55%;*/ 
+   font-size: 55%; 
   } 
 
   .menu {
@@ -2687,7 +2687,7 @@ li {
   }
 
   .reusable-button > p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .lang-globe {
@@ -2847,10 +2847,13 @@ li {
 
   .frame-title {
     margin-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
   }
 
   .frame-five h2 {
-    font-size: 4.1rem;
+    font-size: 3.1rem;
   }
 
   .frame-five p {
