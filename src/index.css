@@ -779,7 +779,7 @@
 .dotted-line {
   position: absolute;
   top: 115px;
-  left: 20px;
+  left: 34px;
   right: 0;
   bottom: 0;
   z-index: 1;
@@ -787,7 +787,7 @@
 }
 
 .dotted-line img {
-  height: 90%;
+  height: 80%;
 }
 
 .frame-four-b {
@@ -860,7 +860,7 @@
   color: white;
   padding: 7px 6px;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .stat-icon {
@@ -1162,6 +1162,10 @@ li {
 @media (min-width: 420px) and (max-width: 719px) {
   body {
     /*font-size: 69.5%;*/
+  }
+
+  .reusable-button {
+    font-size: 1rem;
   }
 
   .frame-one-text {
@@ -2830,7 +2834,7 @@ li {
   }
 
   .stat-text {
-    font-size: 2rem ;
+    font-size: 1.8rem ;
   }
 
   .count {
