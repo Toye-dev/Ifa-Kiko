@@ -63,9 +63,7 @@ const Header = () => {
                <>
                     <div className="app-header">
                         <div className="logo-icon">
-                            <div className="logo">
-                                <img src="Images/Ifá Kíkọ́ Green Logo Text_prev_ui 2.png" alt="Logo" />
-                            </div>
+                           
                             <div
                                 className={`hide-menu-icon ${menuShows ? "show" : "hide"}`}
                                 onClick={handleMenuHides}
@@ -76,6 +74,10 @@ const Header = () => {
                                 className={`show-menu-icon ${!menuShows ? "show" : "hide"}`}
                                 onClick={handleMenuShows}
                             >≡ 
+                            </div>
+
+                            <div className="logo">
+                                <img src="Images/Ifá Kíkọ́ Green Logo Text_prev_ui 2.png" alt="Logo" />
                             </div>
                         </div>
 

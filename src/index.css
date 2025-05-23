@@ -96,6 +96,7 @@
 .logo {
   display: flex;
   width: 80px;
+  margin-left: 23px;
 }
 
 .logo-for-menu {
@@ -111,8 +112,9 @@
 
 .show-menu-icon, .hide-menu-icon {
   position: absolute;
-  left: 85px;
-  font-size: 2.7rem;
+  left: 3px;
+  padding-bottom: 2px;
+  font-size: 2.9rem;
   color: #342f26e4;
   z-index: 2000;
   transition: all 0.4s ease, transform 0.3s ease;
@@ -132,9 +134,10 @@
 }
 
 .icon-for-menu {
-  text-shadow: 0px 2.5px .5px #ffffff;
+  text-shadow: .5px 1px .5px #ffffff;
   cursor: pointer;
-  transition: all ease .4s
+  transition: all ease .4s;
+  margin-bottom: 5px;
 }
 
 .icon-for-menu:hover {
@@ -1158,7 +1161,7 @@ li {
 
 @media (min-width: 420px) and (max-width: 719px) {
   body {
-    font-size: 69.5%;
+    /*font-size: 69.5%;*/
   }
 
   .frame-one-text {
@@ -1425,6 +1428,7 @@ li {
     width: 100%;
     min-width: 100px;
     margin-right: 20px;
+    margin-left: 0px;
   }
 
   .lang-arrow {
@@ -2654,8 +2658,8 @@ li {
 
 
   *, body, html {
-   font-size: 55%; 
- } 
+   /*font-size: 55%;*/ 
+  } 
 
   .menu {
     max-width: 656px;
@@ -2726,7 +2730,7 @@ li {
   }
 
   .design-border {
-    height: 515px;
+    height: 543px;
   }
 
   .first-text-div {
@@ -2803,7 +2807,7 @@ li {
 
   .dotted-line {
     position: absolute;
-    top: 400px;
+    top: 440px;
     left: 170px;
     right: 0;
     bottom: 0;

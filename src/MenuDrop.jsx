@@ -6,9 +6,7 @@ const MenuDrop = ({menuShows, handleMenuHides, handleMenuShows}) => {
             <nav className={`nav ${menuShows ? "active" : ""}`}>
                 
                 <div className="logo-icon logo-for-menu">
-                    <div className="logo">
-                        <img src="Images/Ifá Kíkọ́ Green Logo Text_prev_ui 2.png" alt="Logo" />
-                    </div>
+                   
                     <div
                         className={`hide-menu-icon icon-for-menu ${menuShows ? "show" : "hide"}`}
                         onClick={handleMenuHides}
@@ -20,6 +18,11 @@ const MenuDrop = ({menuShows, handleMenuHides, handleMenuShows}) => {
                         onClick={handleMenuShows}
                     >≡ 
                     </div>
+
+                    <div className="logo">
+                        <img src="Images/Ifá Kíkọ́ Green Logo Text_prev_ui 2.png" alt="Logo" />
+                    </div>
+                    
                 </div>
 
                <div>
