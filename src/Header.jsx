@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MenuDrop from "./MenuDrop";
+import SlideinMenu from "./SlideinMenu";
 import { useMediaQuery } from "react-responsive";
 import GradientButton from "./GradientButton"; 
 
@@ -90,7 +90,7 @@ const Header = () => {
                         
                     </div>
 
-                    <MenuDrop menuShows={menuShows} handleMenuHides={handleMenuHides} handleMenuShows={handleMenuHides}/>
+                    <SlideinMenu menuShows={menuShows} handleMenuHides={handleMenuHides} handleMenuShows={handleMenuHides}/>
                </>)}
 
             </header>

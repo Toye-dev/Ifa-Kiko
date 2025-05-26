@@ -1,6 +1,6 @@
 
 
-const MenuDrop = ({menuShows, handleMenuHides, handleMenuShows}) => {
+const SlideinMenu = ({menuShows, handleMenuHides, handleMenuShows}) => {
     return (
         <>
             <nav className={`nav ${menuShows ? "active" : ""}`}>
@@ -48,4 +48,4 @@ const MenuDrop = ({menuShows, handleMenuHides, handleMenuShows}) => {
    
 }
 
-export default MenuDrop;
+export default SlideinMenu;

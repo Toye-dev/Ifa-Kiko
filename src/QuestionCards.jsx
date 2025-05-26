@@ -20,7 +20,11 @@ const QuestionCards = ({ answerText, questionText, questionNumber }) => {
                     <h3>{questionText}</h3>
                 </div>
                 <button className="button">
-                    <div className={`answer-button ${isOpen ? "move-minus" : ""}`} onClick={forAnswerDrop}>{ isOpen ? "-" : "+" }</div>
+                    <div className={`answer-button ${isOpen ? "move-minus" : ""}`} 
+                        onClick={forAnswerDrop}
+                    >
+                        { isOpen ? "-" : "+" }
+                    </div>
                 </button>
                 
             </div>

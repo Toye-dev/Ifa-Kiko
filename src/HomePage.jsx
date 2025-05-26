@@ -52,11 +52,20 @@ const HomePage = () => {
                     <div className="frame-one-text">
                         <div className="text-box">
                             <h1>Join Thousands Learning<br /> IfÁ through Ancestral <br />Voice</h1>
-                            {isLargeScreen ? (<p>Available on iOS and Android <br/> Free to join, pay-per-verse model <br/>Built for the spiritually curious, the committed learner, and the <br /> global Yoruba community</p>) : (<p>Available on iOS and Android <br/> Free to join, pay-per-verse model <br/>Built for the spiritually curious, the committed <br/>learner, and the global Yoruba community</p>)}
+                            {isLargeScreen ? (
+                                <p>Available on iOS and Android <br/> Free to join, pay-per-verse model <br/>Built for the spiritually curious, the committed learner, and the <br /> global Yoruba community</p>
+                            ) : (
+                                <p>Available on iOS and Android <br/> Free to join, pay-per-verse model <br/>Built for the spiritually curious, the committed <br/>learner, and the global Yoruba community</p>
+                            )}
                             <h2>Download App Now</h2>
+
                             <div className="download-buttons">
-                                <img src="Images/Playstore-Link.png" alt="Playstore" className="playstore-button" />
-                                <img src="Images/Applestore-Link.png" alt="Applestore" className="appstore-button" />
+                                <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
+                                    <img src="Images/Playstore-Link.png" alt="Playstore" className="playstore-button" />
+                                </a>
+                                <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
+                                    <img src="Images/Applestore-Link.png" alt="Applestore" className="appstore-button" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +107,8 @@ const HomePage = () => {
 
             </section>
 
-            {isLargeScreen ? (<>
+            {isLargeScreen ? (
+            <>
                 <section className="frame-two" id="about-section">
                     <div className="frames-first-container">
                         <div className="left-frame-container">
@@ -128,7 +138,8 @@ const HomePage = () => {
                     </div>
                 </section>
             </>
-            ):(<>
+            ):(
+            <>
                 <section className="frame-two" id="about-section">
 
                     <div className="first-text-div">
@@ -459,8 +470,12 @@ const HomePage = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
                         
                         <div className="download-buttons">
-                            <img src="Images/Playstore-Link.png" alt="Playstore" className="playstore-button" />
-                            <img src="Images/Applestore-Link.png" alt="Applestore" className="appstore-button" />
+                            <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
+                                <img src="Images/Playstore-Link.png" alt="Playstore" className="playstore-button" />
+                            </a>
+                            <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
+                                <img src="Images/Applestore-Link.png" alt="Applestore" className="appstore-button" />
+                            </a>
                         </div>
 
                         <div className="stats-boxes">
@@ -485,8 +500,12 @@ const HomePage = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</p>
                         
                         <div className="download-buttons">
-                            <img src="Images/Playstore-Link.png" alt="Playstore" className="playstore-button" />
-                            <img src="Images/Applestore-Link.png" alt="Applestore" className="appstore-button" />
+                            <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
+                                <img src="Images/Playstore-Link.png" alt="Playstore" className="playstore-button" />
+                            </a>
+                            <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener noreferrer">
+                                <img src="Images/Applestore-Link.png" alt="Applestore" className="appstore-button" />
+                            </a>
                         </div>
 
                         <div className="phonescreen-trio">
